@@ -1,0 +1,31 @@
+{
+  "name": "@activewidgets/react",
+  "version": "0.0.1",
+  "description": "Datagrid component for React",
+  "main": "index.js",
+  "files": [
+    "*.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "@activewidgets/frameworks": "https://cdn.activewidgets.com/packages/frameworks-0.0.1.tgz",
+    "@activewidgets/grid": "https://cdn.activewidgets.com/packages/grid-0.0.1.tgz"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activewidgets/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "webmaster@activewidgets.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/activewidgets/react/issues"
+  },
+  "homepage": "https://github.com/activewidgets/react#readme"
+}
