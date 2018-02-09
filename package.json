@@ -2,18 +2,38 @@
   "name": "@activewidgets/react",
   "version": "0.0.1",
   "description": "Datagrid component for React",
+  "author": "webmaster@activewidgets.com",
+  "license": "MIT",
   "main": "index.js",
   "files": [
     "*.js",
     "LICENSE",
     "README.md"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@activewidgets/frameworks": "https://cdn.activewidgets.com/packages/frameworks-0.0.1.tgz",
     "@activewidgets/grid": "https://cdn.activewidgets.com/packages/grid-0.0.1.tgz"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "babel-jest": "^22.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.2.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.2.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "jest": {
+    "rootDir": "test/unit"
   },
   "repository": {
     "type": "git",
@@ -22,8 +42,6 @@
   "keywords": [
     "react"
   ],
-  "author": "webmaster@activewidgets.com",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/activewidgets/react/issues"
   },
