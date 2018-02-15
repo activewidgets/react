@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "storybook": "start-storybook -p 9001 -c storybook",
-    "docs": "gitbook serve docs ",
+    "docs:build": "rimraf docs/_book && gitbook build docs",
+    "docs:serve": "gitbook serve docs",
     "test": "jest"
   },
   "dependencies": {
@@ -28,7 +29,8 @@
     "jest": "^22.2.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "rimraf": "^2.6.2"
   },
   "babel": {
     "presets": [
