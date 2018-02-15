@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "storybook": "start-storybook -p 9001 -c storybook",
+    "docs": "gitbook serve docs ",
     "test": "jest"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "babel-jest": "^22.2.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "gitbook-cli": "^2.3.2",
     "jest": "^22.2.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
