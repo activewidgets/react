@@ -12,8 +12,9 @@
   ],
   "scripts": {
     "storybook": "start-storybook -p 9001 -c storybook",
-    "docs:build": "rimraf docs/_book && gitbook build docs",
-    "docs:serve": "gitbook serve docs",
+    "storybook:build": "rimraf out/storybook && build-storybook -c storybook -o out/storybook",
+    "docs": "gitbook serve docs out/docs",
+    "docs:build": "rimraf out/docs && gitbook build docs out/docs",
     "test": "jest"
   },
   "dependencies": {
