@@ -1,12 +1,16 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {react} from '@activewidgets/frameworks';
-import * as options from '@activewidgets/grid';
+import {ReactBuilder} from '@activewidgets/frameworks';
+import {grid, row} from '@activewidgets/grid';
+import '@activewidgets/grid/index.css'
 
-const component = react(React.createElement, React.PureComponent),
-    Grid = component(options.grid),
-    Row = component(options.row),
-    components = {Grid, Row};
+const build = ReactBuilder.init(React.createElement, React.PureComponent);
 
-export {React, ReactDOM, components as default, components, Grid, Row};
+export const Template = ReactBuilder.Template;
+
+export const Grid = build(grid);
+export const Row = build(row);
+
+export const components = {Grid, Row};
+
+export default {Template, components, Grid, Row};

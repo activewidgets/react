@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {Grid} from '../default';
+import {Grid} from '../';
 import rows from './data/customers.js';
 
 
