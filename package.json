@@ -30,6 +30,8 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "gitbook-cli": "^2.3.2",
     "jest": "^22.2.2",
     "react": "^16.2.0",
@@ -46,9 +48,15 @@
     ]
   },
   "jest": {
-    "rootDir": "test/unit",
+    "roots": [
+      "<rootDir>/test/unit"
+    ],
+    "testMatch": [
+      "**/*.js"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/test/config/enzyme.js",
     "moduleNameMapper": {
-      "\\.(css|png)$": "<rootDir>/../mocks/files.js"
+      "\\.(css|png)$": "<rootDir>/test/mocks/files.js"
     }
   },
   "repository": {
