@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import {storiesOf} from '@storybook/react';
 
 import basic from '../examples/basic.js';
 
-storiesOf('datagrid', module)
+storiesOf('Demo', module)
 
-    .add('basic', basic)
+    .add('datagrid', basic)
 
     .add('button', () => (
         <button>Hello Button</button>
