@@ -1,5 +1,6 @@
 
 import {configure} from '@storybook/react';
+import '../css';
 
 function loadStories() {
     require('./demo.js');
