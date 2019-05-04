@@ -2,15 +2,21 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 
+let globals = {
+    'react': 'React',
+    '@activewidgets/frameworks/react': 'AX.frameworks.react',
+    '@activewidgets/grid': 'AX.components'
+};
+
 export default {
     input: 'index.js',
     output: [
-        {file: 'dist/index.umd.js', format: 'umd', sourcemap: true, name: 'AX', exports: 'named'},
-        {file: 'dist/index.esm.js', format: 'esm', sourcemap: true}
+        {file: 'dist/ax-react.js', format: 'umd', sourcemap: true, name: 'AX.React', extend: true, globals},
+        {file: 'dist/ax-react.esm.js', format: 'esm', sourcemap: true}
     ],
     external: [
         'react',
-        '@activewidgets/frameworks',
+        '@activewidgets/frameworks/react',
         '@activewidgets/grid'
     ],
     plugins: [
