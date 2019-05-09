@@ -4,14 +4,14 @@ import babel from 'rollup-plugin-babel';
 
 let globals = {
     'react': 'React',
-    '@activewidgets/frameworks/react': 'AX.frameworks.react',
-    '@activewidgets/grid': 'AX.components'
+    '@activewidgets/frameworks/react': 'ActiveWidgets.frameworks.react',
+    '@activewidgets/grid': 'ActiveWidgets.components'
 };
 
 export default {
     input: 'index.js',
     output: [
-        {file: 'dist/ax-react.js', format: 'umd', sourcemap: true, name: 'AX.React', extend: true, globals},
+        {file: 'dist/ax-react.js', format: 'umd', sourcemap: true, name: 'ActiveWidgets.React', extend: true, globals},
         {file: 'dist/ax-react.esm.js', format: 'esm', sourcemap: true}
     ],
     external: [
