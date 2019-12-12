@@ -1,0 +1,6 @@
+{
+  "name": "@activewidgets/react/js",
+  "main": "../dist/ax-js.umd.js",
+  "module": "../dist/ax-js.esm.js",
+  "private": true
+}
