@@ -12,10 +12,10 @@ let name = 'ActiveWidgets.React',
 let globals = {
     'react': 'React',
     '@activewidgets/frameworks/react': 'ActiveWidgets.frameworks.react',
-    '@activewidgets/grid/js': 'ActiveWidgets.components',
-    '@activewidgets/grid/style': 'ActiveWidgets.styles',
-    '@activewidgets/grid/metadata': 'ActiveWidgets.metadata',
-    '@activewidgets/grid/css': ''
+    '@activewidgets/datagrid/js': 'ActiveWidgets.components',
+    '@activewidgets/datagrid/style': 'ActiveWidgets.styles',
+    '@activewidgets/datagrid/metadata': 'ActiveWidgets.metadata',
+    '@activewidgets/datagrid/css': ''
 };
 
 

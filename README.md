@@ -19,10 +19,10 @@ npm install @activewidgets/react
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Grid} from '@activewidgets/react';
+import {Datagrid} from '@activewidgets/react';
 import {columns, rows} from './data.js';
 
-const app = <Grid columns={columns} rows={rows} />;
+const app = <Datagrid columns={columns} rows={rows} />;
 
 ReactDOM.render(app, document.getElementById('app'));
 ```
