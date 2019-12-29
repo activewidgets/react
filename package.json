@@ -2,7 +2,7 @@
   "name": "@activewidgets/react",
   "version": "0.0.8",
   "description": "Datagrid component for React",
-  "author": "webmaster@activewidgets.com",
+  "author": "ActiveWidgets SARL",
   "license": "MIT",
   "main": "./dist/umd/package.js",
   "module": "./dist/esm/package.js",
