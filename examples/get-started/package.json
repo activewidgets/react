@@ -1,7 +1,7 @@
 {
   "name": "react-get-started",
   "version": "1.0.0",
-  "description": "",
+  "description": "ActiveWidgets datagrid for React",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
