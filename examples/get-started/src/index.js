@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Datagrid} from "@activewidgets/react";
-import {columns, rows} from "./data.js"
+import { Datagrid } from "@activewidgets/react";
+import { columns, rows } from "./data.js"
 import "./styles.css";
 
 function App() {
