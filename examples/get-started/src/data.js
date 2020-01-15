@@ -1,15 +1,15 @@
 
 export const columns = [
-  {header: 'Code', field: 'CustomerID', width: 80, background: '#def', fixed: true},
+  {header: 'Code', field: 'CustomerID', width: 80, style: 'background:#def', fixed: true},
   {header: 'Company Name', field: 'CompanyName', width: 160, fixed: true},
   {header: 'Contact', field: 'ContactName', width: 120},
-  {header: 'Title', field: 'ContactTitle', width: 120, background: '#fed'},
+  {header: 'Title', field: 'ContactTitle', width: 120, style: 'background:#fed'},
   {header: 'Address', field: 'Address', width: 120},
   {header: 'City', field: 'City'},
   {header: 'Zip', field: 'PostalCode', align: 'right'},
   {header: 'Phone', field: 'Phone'},
   {header: 'Fax', field: 'Fax'},
-  {header: 'Country', field: 'Country', background: '#efe', fixed: true}
+  {header: 'Country', field: 'Country', style: 'background:#efe', fixed: true}
 ];
 
 export const rows = [
