@@ -7,11 +7,17 @@ import * as northwind from './northwind.js';
 
 
 let el = document.querySelector('#app'),
+    tags = {},
     templates = {},
     data = {northwind},
     lookup = {},
     links = [],
     key = 1;
+
+
+Object.keys(components).forEach(name => {
+    tags['ax-' + name.toLowerCase()] = components[name];
+});
 
 
 function path(s){
@@ -35,9 +41,9 @@ function index(name){
 }
 
 
-function render(Component, props){
+function render(component, props){
     props.key = ++key;
-    ReactDOM.render(React.createElement(Component, props), el);
+    ReactDOM.render(React.createElement(tags[component], props), el);
 }
 
 
@@ -47,7 +53,7 @@ function refresh(){
         mode = RegExp.$1;
 
     if (name && typeof lookup[name] == 'function') {
-        lookup[name]({render}, components, templates, data);
+        lookup[name]({render}, templates, data);
     }
     else {
         index(name);
