@@ -1,22 +1,14 @@
 ﻿
 import {Viewer} from '@activewidgets/examples';
-import React from 'react';
 import ReactDOM from 'react-dom';
 import * as pages from '../index.js';
-import * as components from '../../';
-
-
-let tags = {};
-
-Object.keys(components).forEach(name => {
-    tags['ax-' + name.toLowerCase()] = components[name];
-});
+import {h} from '../../';
 
 
 function mount(component, props){
     let container = document.getElementById('app');
     container.innerHTML = '';
-    ReactDOM.render(React.createElement(tags[component], props), container);
+    ReactDOM.render(h(component, props), container);
 }
 
 
