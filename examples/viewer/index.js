@@ -1,25 +1,33 @@
 ﻿
 import {Viewer} from '@activewidgets/examples';
 import ReactDOM from 'react-dom';
-import * as pages from '../index.js';
 import {h} from '../../';
+import * as pages from './examples.js';
+import readme from '../README.md';
+import logo from './react.svg';
+import pkg from '../../package.json';
+
+
+let framework = 'React',
+    container = document.getElementById('app');
 
 
 function mount(component, props){
-    let container = document.getElementById('app');
     container.innerHTML = '';
     ReactDOM.render(h(component, props), container);
 }
 
 
 function clean(){
-    let container = document.getElementById('app');
     ReactDOM.unmountComponentAtNode(container);
     container.innerHTML = '';
 }
 
 
+container.innerHTML = '';
+
+
 const viewer = new Viewer({
     target: document.body,
-    props: {pages, mount, clean}
+    props: {framework, pkg, logo, readme, pages, mount, clean}
 });
