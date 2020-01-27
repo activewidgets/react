@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "ActiveWidgets/React from CDN",
   "keywords": [],
-  "main": "index.html",
+  "main": "src/index.js",
   "private": true
 }
