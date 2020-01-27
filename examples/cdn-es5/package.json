@@ -4,5 +4,12 @@
   "description": "ActiveWidgets/React from CDN",
   "keywords": [],
   "main": "src/index.js",
+  "eslintConfig": {
+    "globals": {
+      "ActiveWidgets": true,
+      "React": true,
+      "ReactDOM": true
+    }
+  },
   "private": true
 }
