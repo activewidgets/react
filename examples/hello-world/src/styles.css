@@ -1,0 +1,16 @@
+
+.ax-datagrid {
+    margin: 60px;
+    font-family: "Segoe UI", "Helvetica Neue";
+    font-size: 13px;
+}
+
+.ax-headers-view {
+    font-weight: bold;
+    color: #666;
+    border-bottom: 1px solid #aaa;
+}
+
+.ax-gridlines {
+    border-bottom: 1px solid #eee;
+}

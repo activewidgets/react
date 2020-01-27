@@ -1,0 +1,8 @@
+{
+  "name": "react-cdn-es5",
+  "version": "1.0.0",
+  "description": "ActiveWidgets/React from CDN",
+  "keywords": [],
+  "main": "index.html",
+  "private": true
+}
