@@ -1,9 +1,9 @@
 ﻿
 import {Viewer} from '@activewidgets/examples';
 import ReactDOM from 'react-dom';
-import {h} from '../../';
+import {h} from '@activewidgets/react';
 import * as pages from './examples.js';
-import readme from '../README.md';
+import readme from '../demo/README.md';
 import logo from './react.svg';
 import pkg from '../../package.json';
 
