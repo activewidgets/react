@@ -1,0 +1,20 @@
+{
+  "name": "react-events",
+  "version": "1.0.0",
+  "description": "User events - ActiveWidgets/React",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@activewidgets/react": "0.0.10",
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1"
+  },
+  "private": true
+}

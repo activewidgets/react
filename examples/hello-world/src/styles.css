@@ -1,8 +1,11 @@
 
-.ax-datagrid {
+body {
     margin: 60px;
-    font-family: "Segoe UI", "Helvetica Neue";
-    font-size: 13px;
+    font: 14px/1.2143 'Segoe UI', 'Avenir', 'Helvetica Neue', 'Tahoma', sans-serif;
+}
+
+.ax-datagrid {
+    max-height: 80px;
 }
 
 .ax-headers-view {

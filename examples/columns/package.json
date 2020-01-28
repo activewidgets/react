@@ -1,7 +1,7 @@
 {
-  "name": "react-get-started",
+  "name": "react-columns",
   "version": "1.0.0",
-  "description": "ActiveWidgets datagrid for React",
+  "description": "Columns, rows - ActiveWidgets/React",
   "keywords": [],
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "react-dom": "^16"
   },
   "devDependencies": {
-    "@babel/core": "^7",
     "parcel-bundler": "^1"
   },
   "private": true
