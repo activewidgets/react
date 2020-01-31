@@ -36,6 +36,7 @@
     "@rollup/plugin-node-resolve": "^6",
     "@testing-library/react": "^9",
     "postcss-import": "^12",
+    "react": "^16",
     "react-dom": "^16",
     "rimraf": "^3",
     "rollup": "^1.20",
