@@ -9,7 +9,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@activewidgets/react": "0.0.10",
+    "@activewidgets/react": "*",
     "react": "^16",
     "react-dom": "^16"
   },
