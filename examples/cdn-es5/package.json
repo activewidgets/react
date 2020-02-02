@@ -2,14 +2,7 @@
   "name": "react-cdn-es5",
   "version": "1.0.0",
   "description": "ActiveWidgets/React from CDN",
-  "keywords": [],
+  "license": "MIT",
   "main": "src/index.js",
-  "eslintConfig": {
-    "globals": {
-      "ActiveWidgets": true,
-      "React": true,
-      "ReactDOM": true
-    }
-  },
   "private": true
 }
