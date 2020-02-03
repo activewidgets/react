@@ -9,6 +9,7 @@ import ReactDOM from "react-dom";
 import { Datagrid } from "@activewidgets/react";
 import { northwind } from "@activewidgets/examples/data";
 
+
 const columns = [
   {header: 'Code', field: 'customerID', width: 80, style: 'background:#def', fixed: true},
   {header: 'Company Name', field: 'companyName', width: 160},
@@ -22,8 +23,12 @@ const columns = [
   {header: 'Country', field: 'country'}
 ];
 
-const App = () => (
-    <Datagrid columns={columns} rows={northwind.customers} />
-);
+const rows = northwind.customers;
+
+
+function App(){
+    return <Datagrid columns={columns} rows={rows} />
+}
+
 
 ReactDOM.render(<App />, document.getElementById("app"));

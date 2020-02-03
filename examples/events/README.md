@@ -1,21 +1,4 @@
 
-A minimal example showing ActiveWidgets datagrid for React
+[Open fullscreen](/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/events)
 
-```js
-import React from "react";
-import ReactDOM from "react-dom";
-import {Datagrid} from "@activewidgets/react";
-import {columns, rows} from "./data.js"
-import "./styles.css";
-
-function App() {
-  return (
-      <Datagrid columns={columns} rows={rows} />
-    );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-```
-
-[![Edit react-get-started](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/get-started)
+React example

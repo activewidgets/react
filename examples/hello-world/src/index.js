@@ -12,8 +12,8 @@ const rows = [
     { message: 'Hello, World!' }
 ];
 
-const App = () => (
-    <Datagrid rows={rows} />
-);
+function App(){
+    return <Datagrid rows={rows} />
+}
 
 ReactDOM.render(<App />, document.getElementById("app"));

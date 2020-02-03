@@ -70,10 +70,12 @@
     "url": "git+https://github.com/activewidgets/react.git"
   },
   "keywords": [
+    "activewidgets",
+    "datagrid",
     "react"
   ],
   "bugs": {
     "url": "https://github.com/activewidgets/react/issues"
   },
-  "homepage": "https://github.com/activewidgets/react#readme"
+  "homepage": "https://activewidgets.com"
 }
