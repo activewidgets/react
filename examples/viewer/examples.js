@@ -16,3 +16,6 @@ export const Local = {
     'Columns, rows': {path: 'columns', readme: columns},
     'User events': {path: 'events', readme: events}
 };
+
+
+export * from '@activewidgets/examples/shared';
