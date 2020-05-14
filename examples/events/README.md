@@ -16,5 +16,5 @@ function App(){
 
 Read more:
 
-- [Get started](https://docs.activewidgets.com/guide/starting/react/#user-events)
+- [React Datagrid - Get started](https://docs.activewidgets.com/guide/env/react/#user-events)
 - [API - mouse event](https://docs.activewidgets.com/api/datagrid/mouse-event/)

@@ -31,6 +31,6 @@ Assign an array of column descriptor objects to the [columns](https://docs.activ
 
 Read more:
 
-- [Get started](https://docs.activewidgets.com/guide/starting/react/#data-properties)
+- [React Datagrid - Get started](https://docs.activewidgets.com/guide/env/react/#data-properties)
 - [API - columns](https://docs.activewidgets.com/api/datagrid/columns/)
 - [API - rows](https://docs.activewidgets.com/api/datagrid/rows/)

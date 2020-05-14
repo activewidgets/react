@@ -14,6 +14,8 @@ This is a simple demo showing some of the features of ActiveWidgets/React datagr
 - International number/date formats
 - Custom column types (presets)
 
+[React Datagrid - Get started](https://docs.activewidgets.com/guide/env/react/)
+
 ### Virtualized scrolling
 
 The datagrid implements virtualized scrolling - rendering only the visible rows and adding/removing extra rows on the fly 
@@ -138,5 +140,5 @@ like popups, overlays, gantt charts, schedulers etc.
 
 Read more:
 
-- [Get started](https://docs.activewidgets.com/guide/starting/react/)
+- [React Datagrid - Get started](https://docs.activewidgets.com/guide/env/react/)
 - [API](https://docs.activewidgets.com/api/)
