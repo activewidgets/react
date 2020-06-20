@@ -8,7 +8,7 @@
 [![Github issues](https://img.shields.io/github/issues/activewidgets/react)](https://github.com/activewidgets/react/issues "See Github issues")
 [![Github repo](https://img.shields.io/github/stars/activewidgets/react?label=GitHub&style=social)](https://github.com/activewidgets/react "Open Github repo")
 
-ActiveWidgets is a multi-framework UI component library. This package provides **datagrid component** for **React**.
+ActiveWidgets is a multi-framework UI component library. This package provides [virtualized datagrid component for React](https://activewidgets.com/react/data-grid/).
 
 [Live demo](https://react.activewidgets.com) / [Developer guide](https://docs.activewidgets.com/guide/) / [API reference](https://docs.activewidgets.com/api/)
 

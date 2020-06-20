@@ -74,12 +74,22 @@
     "url": "git+https://github.com/activewidgets/react.git"
   },
   "keywords": [
-    "activewidgets",
+    "react",
     "datagrid",
-    "react"
+    "datatable",
+    "virtualized",
+    "scrolling",
+    "grid",
+    "table",
+    "virtual",
+    "data-grid",
+    "data-table",
+    "react-data-grid",
+    "react-data-table",
+    "activewidgets"
   ],
   "bugs": {
     "url": "https://github.com/activewidgets/react/issues"
   },
-  "homepage": "https://activewidgets.com"
+  "homepage": "https://activewidgets.com/react/data-grid/"
 }
