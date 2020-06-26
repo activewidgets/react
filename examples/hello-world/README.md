@@ -29,4 +29,4 @@ Thats all!
 
 Read more:
 
- - [React Datagrid - Get started](https://docs.activewidgets.com/guide/env/react/)
+ - [React Datagrid - Get started](https://activewidgets.com/guide/env/react/)
