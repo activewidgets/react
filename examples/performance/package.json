@@ -1,0 +1,21 @@
+{
+  "name": "react-performance",
+  "version": "1.0.0",
+  "description": "Performance - ActiveWidgets/React",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@activewidgets/examples": "*",
+    "@activewidgets/react": "*",
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1"
+  },
+  "private": true
+}
