@@ -24,7 +24,7 @@
     "@activewidgets/frameworks": "3.0.7"
   },
   "peerDependencies": {
-    "react": "^16"
+    "react": "16 - 17"
   },
   "devDependencies": {
     "@activewidgets/examples": "0.0.10",
@@ -41,8 +41,8 @@
     "open": "^7",
     "parcel-bundler": "^1.12",
     "postcss-import": "^12",
-    "react": "^16",
-    "react-dom": "^16",
+    "react": "^17",
+    "react-dom": "^17",
     "rimraf": "^3",
     "rollup": "^2",
     "rollup-plugin-postcss": "^3",
