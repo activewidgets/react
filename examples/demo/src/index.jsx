@@ -23,38 +23,10 @@ const columns = [
     { header: 'Order Date', type: 'date', field: 'date' }
 ];
 
-
 const rows = northwind.customers;
 
-
-function onRow(row){
-
-    const {data, cells} = row;
-
-    // calculated values
-    cells.amount = 2000 * Math.random();
-    cells.date = Date.now() - 500 * 86400000 * Math.random();
-
-
-    // dynamic row style
-    if (data.country === 'France'){
-        row.className = 'bg-green';
-    }
-
-    // dynamic cell styles
-    if (data.city === 'London'){
-        cells.address = {className: 'circle'};
-    }
-
-    if (data.contactTitle === 'Owner'){
-        cells.contact = {className: 'star'};
-    }
-}
-
-
 function App(){
-    return <Datagrid columns={columns} rows={rows} templates={templates} options={options} onRow={onRow}/>
+    return <Datagrid columns={columns} rows={rows} templates={templates} options={options}/>
 }
-
 
 ReactDOM.render(<App />, document.getElementById('app'));
