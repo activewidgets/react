@@ -18,7 +18,6 @@ let globals = {
     '@activewidgets/frameworks/react': 'ActiveWidgets.Frameworks.React',
     '@activewidgets/datagrid/js': 'ActiveWidgets.Components',
     '@activewidgets/datagrid/style': 'ActiveWidgets.Styles',
-    '@activewidgets/datagrid/metadata': 'ActiveWidgets.Metadata',
     '@activewidgets/datagrid/dist/datagrid.css': '',
     '@activewidgets/datagrid/css': ''
 };
