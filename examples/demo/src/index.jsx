@@ -25,8 +25,15 @@ const columns = [
 
 const rows = northwind.customers;
 
+function calc(){
+    return {
+        amount: 2000 * Math.random(),
+        date: Date.now() - 500 * 86400000 * Math.random()
+    };
+}
+
 function App(){
-    return <Datagrid columns={columns} rows={rows} templates={templates} options={options}/>
+    return <Datagrid columns={columns} rows={rows} calc={calc} templates={templates} options={options}/>
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
