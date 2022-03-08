@@ -1,8 +1,0 @@
-{
-  "name": "react-cdn-es5",
-  "version": "1.0.0",
-  "description": "ActiveWidgets/React from CDN",
-  "license": "MIT",
-  "main": "src/index.js",
-  "private": true
-}
