@@ -11,12 +11,23 @@ import { columns, rows } from "@activewidgets/examples/data";
 import './styles.css';
 
 
-function onMouse({row, column}){
-    alert(`row ${row.key} clicked!`);
+let gridAPI;
+
+function onInit(api){
+    gridAPI = api;
 }
 
+
+function onClick(event){
+    let cell = gridAPI.cellFromElement(event.target);
+    if (cell && cell.section === 'main') {
+        alert(`row ${cell.row.index + 1} clicked!`);
+    }
+}
+
+
 function App(){
-    return <Datagrid columns={columns} rows={rows} onMouse={onMouse} />
+    return <Datagrid columns={columns} rows={rows} onInit={onInit} onClick={onClick} />
 }
 
 ReactDOM.render(<App />, document.getElementById("app"));
