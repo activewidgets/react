@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@activewidgets/examples": "*",
-    "@activewidgets/react": "*",
+    "@activewidgets/react": "^3",
     "react": "^17",
     "react-dom": "^17"
   },
   "devDependencies": {
     "vite": "^2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/activewidgets/react.git",
+    "directory": "examples/events"
   },
   "private": true
 }

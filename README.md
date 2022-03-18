@@ -54,7 +54,7 @@ function App(){
 ReactDOM.render(<App />, document.getElementById("app"));
 ```
 
-[Live example](https://react.activewidgets.com/examples/local/hello-world/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/hello-world) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/hello-world)
+[Live example](https://react.activewidgets.com/hello-world/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/hello-world) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/hello-world?file=src/index.jsx)
 
 ## CDN links
 
@@ -77,7 +77,7 @@ var App = React.createElement(Datagrid, { rows: rows });
 ReactDOM.render(App, document.getElementById("app"));
 ```
 
-[Live example](https://react.activewidgets.com/examples/local/cdn-es5/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/cdn-es5) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/cdn-es5)
+[Live example](https://react.activewidgets.com/examples/local/cdn-es5/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/cdn-es5) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/cdn-es5)
 
 ## Data properties
 
@@ -108,7 +108,7 @@ function App(){
 }
 ```
 
-[Live example](https://react.activewidgets.com/examples/local/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/columns)
+[Live example](https://react.activewidgets.com/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/columns?file=src/index.jsx)
 
 
 ## User events
@@ -126,7 +126,7 @@ function App(){
 }
 ```
 
-[Live example](/examples/react/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/events)
+[Live example](https://react.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/events?file=src/index.jsx)
 
 ## More info
 

@@ -1,5 +1,5 @@
 
-[Open fullscreen](/demo/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/demo) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/demo)
+[Open fullscreen](https://react.activewidgets.com/demo/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/demo) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/demo?file=src/index.jsx)
 
 This is a simple demo showing some of the features of ActiveWidgets/React datagrid -
 

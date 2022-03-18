@@ -1,5 +1,5 @@
 
-[Open fullscreen](/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on Codesandbox](https://codesandbox.io/s/github/activewidgets/react/tree/master/examples/columns)
+[Open fullscreen](https://react.activewidgets.com/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/columns?file=src/index.jsx)
 
 This example shows how to configure datagrid columns:
 
