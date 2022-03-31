@@ -25,20 +25,20 @@
     "@activewidgets/frameworks": "3.1.1"
   },
   "peerDependencies": {
-    "react": "16 - 17"
+    "react": "*"
   },
   "devDependencies": {
-    "@activewidgets/examples": "0.0.13",
+    "@activewidgets/examples": "0.0.15",
     "@activewidgets/options": "3.1.1",
     "@activewidgets/puppeteer": "0.0.6",
     "@babel/core": "^7",
     "@babel/preset-env": "^7",
     "@rollup/plugin-babel": "^5",
     "@rollup/plugin-node-resolve": "^13",
-    "@testing-library/react": "^12",
+    "@testing-library/react": "^13",
     "express": "^4",
-    "react": "^17",
-    "react-dom": "^17",
+    "react": "^18",
+    "react-dom": "^18",
     "rimraf": "^3",
     "rollup": "^2",
     "rollup-plugin-md": "^1",
