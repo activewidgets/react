@@ -3,20 +3,22 @@
   "version": "1.0.0",
   "description": "User events - ActiveWidgets/React",
   "license": "MIT",
-  "main": "src/index.jsx",
   "scripts": {
-    "start": "vite --open /",
-    "build": "vite build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@activewidgets/examples": "*",
     "@activewidgets/react": "^3",
-    "react": "^17",
-    "react-dom": "^17"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "vite": "^2"
+    "react-scripts": "^5"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/activewidgets/react.git",
