@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { createRoot } from "react-dom/client";
+import ReactDOM from 'react-dom';
 import { Datagrid } from '@activewidgets/react';
 import { northwind } from '@activewidgets/examples/data';
 import * as templates from './templates';
@@ -36,4 +36,4 @@ function App(){
     return <Datagrid columns={columns} rows={rows} calc={calc} templates={templates} options={options}/>
 }
 
-createRoot(document.getElementById("app")).render(<App />);
+ReactDOM.render(<App />, document.getElementById('app'));

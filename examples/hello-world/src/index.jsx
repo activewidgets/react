@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom";
 import { Datagrid } from "@activewidgets/react";
 import './styles.css';
 
@@ -18,4 +18,4 @@ function App(){
     return <Datagrid rows={rows} />
 }
 
-createRoot(document.getElementById("app")).render(<App />);
+ReactDOM.render(<App />, document.getElementById("app"));
