@@ -4,8 +4,8 @@
   "description": "User events - ActiveWidgets/React",
   "license": "MIT",
   "scripts": {
-    "start": "vite --open /",
-    "build": "vite build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@activewidgets/examples": "*",
@@ -14,8 +14,11 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "vite": "^2"
+    "react-scripts": "^5"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/activewidgets/react.git",

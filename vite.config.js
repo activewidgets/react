@@ -9,7 +9,7 @@ export default {
         emptyOutDir: true
     },
     plugins: [
-        examples(),
+        examples('*', 'jsx'),
         markdown()
     ],
     resolve: {
