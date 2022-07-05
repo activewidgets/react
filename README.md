@@ -54,7 +54,7 @@ function App(){
 ReactDOM.render(<App />, document.getElementById("app"));
 ```
 
-[Live example](https://react.activewidgets.com/hello-world/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/hello-world) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/hello-world?file=src/index.jsx)
+[Live example](https://react.activewidgets.com/hello-world/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/hello-world) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/hello-world?file=src/index.js)
 
 ## CDN links
 
@@ -108,7 +108,7 @@ function App(){
 }
 ```
 
-[Live example](https://react.activewidgets.com/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/columns?file=src/index.jsx)
+[Live example](https://react.activewidgets.com/columns/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/columns) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/columns?file=src/index.js)
 
 
 ## User events
@@ -126,7 +126,7 @@ function App(){
 }
 ```
 
-[Live example](https://react.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/events?file=src/index.jsx)
+[Live example](https://react.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/events?file=src/index.js)
 
 ## More info
 

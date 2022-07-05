@@ -1,5 +1,5 @@
 
-[Open fullscreen](https://react.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/events?file=src/index.jsx)
+[Open fullscreen](https://react.activewidgets.com/events/) | [Source on github](https://github.com/activewidgets/react/tree/master/examples/events) | [Edit on stackblitz](https://stackblitz.com/github/activewidgets/react/tree/master/examples/events?file=src/index.js)
 
 The datagrid emits composite [mouse](https://activewidgets.com/api/datagrid/mouse-event/) event 
 which makes it easier to find the elements affected by the user action -
