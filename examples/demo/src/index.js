@@ -8,7 +8,7 @@ import React from 'react';
 import { createRoot } from "react-dom/client";
 import { Datagrid } from '@activewidgets/react';
 import { northwind } from '@activewidgets/examples/data';
-import * as templates from './templates';
+import * as flags from '@activewidgets/examples/flags';
 import options from './options';
 import './styles.css';
 
@@ -33,7 +33,32 @@ function calc(){
 }
 
 function App(){
-    return <Datagrid columns={columns} rows={rows} calc={calc} templates={templates} options={options}/>
+
+    return <Datagrid columns={columns} rows={rows} calc={calc} options={options}>{{
+
+        company: ({data}) => <div>
+            <div className="bold blue">{data.customerID}</div>
+            <div className="small">{data.companyName}</div>
+        </div>,
+        
+        contact: ({data}) => <div>
+            <div className="bold">{data.contactName}</div>
+            <div className="small">{data.contactTitle}</div>
+        </div>,
+        
+        address: ({data}) => <div>
+            <div className="small">{data.address}</div>
+            <div className="small">{data.postalCode} <span>{data.city}</span></div>
+        </div>,
+        
+        country: ({text}) => <div><img src={flags[text]}/>{text}</div>,
+        
+        phone: ({data}) => <div>
+            <div className="small phone">{data.phone}</div>
+            <div className="small fax">{data.fax}</div>
+        </div>
+        
+    }}</Datagrid>
 }
 
 createRoot(document.getElementById("app")).render(<App />);
