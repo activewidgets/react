@@ -4,7 +4,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import adapter from '@activewidgets/frameworks/react';
-import React from 'react';
+import converter from '@activewidgets/frameworks/react';
+import {Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy} from 'react';
 
-export const {h, build} = adapter(React);
+export const {h, component: ReactComponent} = converter({Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
