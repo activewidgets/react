@@ -5,6 +5,6 @@
  */
 
 import converter from '@activewidgets/frameworks/react';
-import {Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy} from 'react';
+import {Component, Fragment, createElement, cloneElement, isValidElement, createContext, Suspense, lazy} from 'react';
 
-export const {h, component: ReactComponent} = converter({Component, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
+export const {component: ReactComponent} = converter({Component, Fragment, createElement, cloneElement, isValidElement, createContext, Suspense, lazy});
