@@ -5,8 +5,9 @@
  */
 
 import {Viewer} from '@activewidgets/examples';
+import {createElement as h} from 'react';
 import ReactDOM from 'react-dom';
-import {h} from '@activewidgets/react';
+import {Datagrid} from '@activewidgets/react';
 import * as pages from './examples.js';
 import readme from '../demo/README.md';
 import logo from './react.svg';
@@ -19,7 +20,7 @@ let framework = 'React',
 
 function mount(component, props){
     container.innerHTML = '';
-    ReactDOM.render(h(component, props), container);
+    ReactDOM.render(h(Datagrid, props), container);
 }
 
 
