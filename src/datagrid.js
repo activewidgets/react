@@ -5,7 +5,7 @@
  */
 
 import {ReactComponent} from './framework.js';
-import {Datagrid as _Datagrid, Row as _Row, Cells as _Cells} from '@activewidgets/datagrid/js';
+import {Datagrid as _Datagrid, Row as _Row, Cells as _Cells} from '@activewidgets/datagrid';
 
 export const Datagrid = ReactComponent(_Datagrid);
 export const Row = ReactComponent(_Row);

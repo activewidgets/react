@@ -1,6 +1,0 @@
-{
-  "name": "@activewidgets/react/js",
-  "main": "../dist/umd/js.cjs",
-  "module": "../dist/esm/js.js",
-  "private": true
-}
